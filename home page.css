@@ -1,0 +1,57 @@
+.navbar{
+    position: fixed;
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+}
+.navbar .logo{
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: wheat;
+    padding: 6px 13px;
+    text-decoration: none;
+    transition: .4s;
+}
+.center{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+    color: #F4EAD5;
+}
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+    text-align: center;
+    color: #FFCAC8;
+}
+.image{
+    background-image: url("train11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
